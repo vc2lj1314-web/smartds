@@ -1,0 +1,18 @@
+# Core agent framework
+langgraph>=0.2.0
+openai>=1.30.0
+requests>=2.31.0
+
+# Tokenisation and error-similarity check
+tiktoken>=0.7.0
+sentence-transformers>=2.7.0
+scikit-learn>=1.3.0
+
+# Numerics used by the parameter controller
+numpy>=1.24.0
+
+# Process supervision for the execution sandbox
+psutil>=5.9.0
+
+# Leaderboard submission (official competition CLI)
+kaggle>=1.6.0

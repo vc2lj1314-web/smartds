@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Credentials. Broad on purpose: a filled-in env file has been committed by
+# accident before. Only the committed template is allowed through.
+.env
+.env.*
+*.env
+env.txt
+env*.txt
+!.env.example
+.venv/
+venv/
+
+# Run outputs
+run-log_*.txt
+run-record_*.json
+best_historical_parameters.json
+submission_*.csv
+submission.csv
+*_20[0-9][0-9][0-9][0-9][0-9][0-9]_*/
+
+# Task data
+input/
+data/*.json
+!data/task_prompts.example.json
