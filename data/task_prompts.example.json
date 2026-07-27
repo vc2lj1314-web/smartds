@@ -1,0 +1,10 @@
+[
+  {
+    "competition_name": "house-prices-advanced-regression-techniques",
+    "prompt": "Predict the sale price of residential homes from 79 explanatory variables describing (almost) every aspect of the properties. The training data is in train.csv and the test data in test.csv. The evaluation metric is the root mean squared error between the logarithm of the predicted value and the logarithm of the observed sale price. Produce a submission.csv with two columns, Id and SalePrice, containing one row per record in the test set."
+  },
+  {
+    "competition_name": "demo-shopee-iet-competition",
+    "prompt": "Classify product images into their marketplace category. The training images and their labels are provided under train/, and the unlabelled evaluation images under test/. The evaluation metric is classification accuracy. Produce a submission.csv with two columns, id and category, containing one row per evaluation image."
+  }
+]
